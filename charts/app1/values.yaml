@@ -1,0 +1,11 @@
+namespaces:
+  - core
+  - bacnbone
+
+configmaps:
+  - name: hosts
+    namespace: core
+    data:
+      app1: http://app1.core:8080/
+      app2: http://app2.core:8080/
+
